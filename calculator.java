@@ -30,18 +30,22 @@ public class calculator {
             case 1 -> {
                 System.out.print("A soma entre ");
                 System.out.println(firstNumber + " + " + secondNumber + " = " + (firstNumber + secondNumber));
+                break;
                 }
             case 2 -> {
                 System.out.print("A subtração entre ");
                 System.out.println(firstNumber + " - " + secondNumber + " = " + (firstNumber - secondNumber));
+                break;
                 }
             case 3 -> {
                 System.out.print("A multiplicação entre ");
                 System.out.println(firstNumber + " * " + secondNumber + " = " + (firstNumber * secondNumber));
+                break;
                 }
             case 4 -> {
                 System.out.print("A divisão entre ");
                 System.out.println(firstNumber + " / " + secondNumber + " = " +  (firstNumber / secondNumber));
+                break;
                 }
             case 5 -> {
                 System.out.print("O fatorial de ");
@@ -62,6 +66,7 @@ public class calculator {
                     secondNumberFactorial --;
                 }
                 System.out.println(resultTwo);
+                break;
                 }
             case 6 -> {
                 if (firstNumber > secondNumber){
@@ -79,7 +84,9 @@ public class calculator {
                 }
                 else {
                     System.out.println("erro.");
-                }   }
+                } 
+                break;
+                }
             case 7 -> {
                 if (firstNumber < secondNumber) {
                     System.out.print(firstNumber);
@@ -96,7 +103,9 @@ public class calculator {
                 }
                 else {
                     System.out.println("erro.");
-                }   }
+                }
+                break;
+                }
             case 8 -> {
                 Scanner readNumberOneAgain = new Scanner(System.in);
                 System.out.println("Digite o primeiro número: ");
@@ -104,6 +113,7 @@ public class calculator {
                 Scanner readNumberTwoAgain = new Scanner(System.in);
                 System.out.println("Digite o segundo número: ");
                 secondNumber = readNumberTwoAgain.nextInt();
+                break;
                 }
         }}
         System.out.println("Espero ter ajudado!");
